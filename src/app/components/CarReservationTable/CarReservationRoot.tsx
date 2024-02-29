@@ -3,7 +3,7 @@ interface CarReservationRootProps {
 }
 
 const CarReservationRoot = ({ children }: CarReservationRootProps) => {
-  return <table className="w-full bg-white">{children}</table>;
+  return <table className="w-full  bg-white rounded-md">{children}</table>;
 };
 
 export default CarReservationRoot;

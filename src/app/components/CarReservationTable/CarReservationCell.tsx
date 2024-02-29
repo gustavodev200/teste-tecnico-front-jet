@@ -16,7 +16,7 @@ const CarReservationCell = ({ name }: CarReservationCellProps) => {
         alt="Mini Cooper"
         className="w-[48px] h-[46px]"
       />
-      <h2>{name}</h2>
+      <h2 className="text-gray-900">{name}</h2>
     </td>
   );
 };

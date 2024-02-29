@@ -3,7 +3,7 @@ import { carsReservation } from "./api/carsReservationData";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-slate-300">
       <CarReservationTable.Root>
         <CarReservationTable.Head />
         {carsReservation?.map((car_reservation) => (
